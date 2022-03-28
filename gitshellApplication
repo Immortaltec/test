@@ -28,3 +28,8 @@ To https://github.com/Immortaltec/test.git
 D:\test [master]>
 #取消本地仓库与远程github仓库的链接
 D:\test [master]> git remote remove origin
+
+#上传图片等非自动初始化的文件,简单说,就是拉取出错
+#error: failed to push some refs to 'https://github.com/Immortaltec/test.git'
+git pull --rebase origin master
+git push -u origin master
