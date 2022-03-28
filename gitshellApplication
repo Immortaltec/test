@@ -1,0 +1,25 @@
+~\Documents\GitHub>
+~\Documents\GitHub> git config --global user.name "Immortaltec"
+~\Documents\GitHub> git config --global useer.email "1415529809@qq.com"
+~\Documents\GitHub> cd d:
+D:\> cd test
+D:\test [master]> git init
+Reinitialized existing Git repository in D:/test/.git/
+D:\test [master]> git add -all
+error: did you mean `--all` (with two dashes ?)
+D:\test [master]> git add --all
+D:\test [master]> git commit -m 'first commit'
+On branch master
+nothing to commit, working tree clean
+D:\test [master]> git remote add origin https://github.com/Immortaltec/test.git
+fatal: remote origin already exists.
+D:\test [master]>  git remote -v
+origin  https://github.com/Immortaltec/test.git (fetch)
+origin  https://github.com/Immortaltec/test.git (push)
+D:\test [master]> git push origin master
+Username for 'https://github.com': Immortaltec
+Password for 'https://Immortaltec@github.com':***
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/Immortaltec/test.git/'
+D:\test [master]>
