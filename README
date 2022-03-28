@@ -5,3 +5,19 @@ this is a test.
   2.SSH,本地生成与GitHub配置
   3.建立本地与远程仓库的连接,取消两仓库的链接
   4.推送非初始化文件类型的文件方法
+
+solution:
+1.token
+  settings->developer settings->persernal access tokens->Generate token
+2.SSh key
+  创建:在windows下查看[c盘->用户->自己的用户名->.ssh]下是否有id_rsa、id_rsa.pub文件，如果没有需要手动生成。
+  打开git bash，在控制台中输入以下命令。
+$ ssh-keygen -t rsa -C "youremail@example.com"
+  配置:登录github。打开setting->SSH keys，点击右上角 New SSH key，把生成好的公钥id_rsa.pub放进 key输入框中，再为当前的key起一个title来区分每个key。
+3.建立和取消链接
+  D:\test [master]> git remote add origin https://github.com/Immortaltec/test.git
+  D:\test [master]> git remote remove origin
+4.推送图片等非自动初始化的文件,简单说,就是拉取出错
+#error: failed to push some refs to 'https://github.com/Immortaltec/test.git'
+git pull --rebase origin master
+git push -u origin master
