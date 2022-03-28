@@ -18,8 +18,15 @@ origin  https://github.com/Immortaltec/test.git (fetch)
 origin  https://github.com/Immortaltec/test.git (push)
 D:\test [master]> git push origin master
 Username for 'https://github.com': Immortaltec
-Password for 'https://Immortaltec@github.com':***
-remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
-remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
-fatal: Authentication failed for 'https://github.com/Immortaltec/test.git/'
+Password for 'https://Immortaltec@github.com':***(new token)
+
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 206 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/Immortaltec/test/pull/new/master
+remote:
+To https://github.com/Immortaltec/test.git
+ * [new branch]      master -> master
 D:\test [master]>
