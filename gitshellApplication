@@ -1,12 +1,9 @@
 ~\Documents\GitHub>
 ~\Documents\GitHub> git config --global user.name "Immortaltec"
 ~\Documents\GitHub> git config --global useer.email "1415529809@qq.com"
-~\Documents\GitHub> cd d:
-D:\> cd test
+~\Documents\GitHub> cd cd D:\test
 D:\test [master]> git init
 Reinitialized existing Git repository in D:/test/.git/
-D:\test [master]> git add -all
-error: did you mean `--all` (with two dashes ?)
 D:\test [master]> git add --all
 D:\test [master]> git commit -m 'first commit'
 On branch master
@@ -19,7 +16,6 @@ origin  https://github.com/Immortaltec/test.git (push)
 D:\test [master]> git push origin master
 Username for 'https://github.com': Immortaltec
 Password for 'https://Immortaltec@github.com':***(new token)
-
 Counting objects: 3, done.
 Writing objects: 100% (3/3), 206 bytes | 0 bytes/s, done.
 Total 3 (delta 0), reused 0 (delta 0)
