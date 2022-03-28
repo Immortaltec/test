@@ -1,4 +1,5 @@
 令牌已过期token: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
+在新版本中,新增了token确保安全性,每当要求输入密码时,就输入token令牌
 
 git remote -v // 查看本地已经关联的远程仓库
 git remote rm name  // # 删除远程仓库
