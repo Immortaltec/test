@@ -26,3 +26,5 @@ remote:
 To https://github.com/Immortaltec/test.git
  * [new branch]      master -> master
 D:\test [master]>
+#取消本地仓库与远程github仓库的链接
+D:\test [master]> git remote remove origin
